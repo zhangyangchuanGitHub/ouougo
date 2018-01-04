@@ -10,16 +10,93 @@ a {
 
 .header {
   height: 173px;
-  background: darkblue;
   margin: 0 85px; }
   .header .head_top {
     height: 33px;
     background: #f2f2f2;
     font-size: 12px;
+    color: #9a9a9a;
+    line-height: 33px; }
+  .header .head_top_left {
+    float: left;
+    width: 500px;
+    display: flex;
+    align-items: center; }
+    .header .head_top_left a {
+      margin-left: 15px;
+      color: #9a9a9a; }
+      .header .head_top_left a:hover {
+        color: #fe852c; }
+  .header .head_top_right {
+    float: right;
+    display: inline-block;
+    margin-right: 60px; }
+  .header a {
+    margin-left: 20px;
     color: #9a9a9a; }
-    .header .head_top .head_top_left {
+    .header a:hover {
+      color: #fe852c; }
+  .header .head_center {
+    height: 105px;
+    overflow: hidden; }
+    .header .head_center a {
       float: left; }
-    .header .head_top .head_top_right {
-      float: right; }
+      .header .head_center a img {
+        height: 48px;
+        width: 240px;
+        margin-top: 20px;
+        margin-left: -18px; }
+    .header .head_center form {
+      margin-left: 315px;
+      margin-top: 20px; }
+      .header .head_center form #circle {
+        border: 2px solid #fe852c;
+        width: 377px;
+        height: 34px;
+        float: left;
+        overflow: hidden;
+        color: #d7d1d0;
+        font-size: 12px; }
+      .header .head_center form #search {
+        width: 70px;
+        height: 38px;
+        background: #fe852c;
+        border: none;
+        margin-left: -5px;
+        font-size: 16px;
+        color: white;
+        margin-right: 30px; }
+      .header .head_center form #btn1 {
+        text-align: center;
+        height: 32px;
+        border: 1px solid #efefef;
+        background: #f7f7f7;
+        overflow: hidden;
+        margin-right: 20px;
+        color: #363636;
+        font-size: 12px; }
+      .header .head_center form #btn2 {
+        background: #f7f7f7;
+        height: 32px;
+        border: 1px solid #efefef;
+        color: #363636;
+        font-size: 12px; }
+  .header .hot_search {
+    font-size: 12px;
+    position: relative;
+    top: -34px;
+    left: 315px;
+    color: #808080; }
+  .header .under ul {
+    border-bottom: 2px solid #fe852c;
+    height: 36px;
+    color: white;
+    font-size: 15px;
+    float: left; }
+    .header .under ul li {
+      height: 36px;
+      float: left; }
+    .header .under ul li:nth-child(1) {
+      background: #fe852c; }
 
 /*# sourceMappingURL=header.css.map */

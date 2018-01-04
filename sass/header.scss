@@ -11,19 +11,115 @@ a{
 //头部样式
 .header{
     height: 173px;
-    background: darkblue;
     margin:0 85px ;
     .head_top{
         height: 33px;
         background: #f2f2f2;
         font-size: 12px;
         color: #9a9a9a;
-         .head_top_left{
+        line-height: 33px;
+    }
+        .head_top_left{
             float: left;
+            width: 500px;
+            display: flex;
+            align-items: center;           
+             a{
+            margin-left:15px ;
+            color: #9a9a9a;
+            &:hover{
+                color:#fe852c;
+            }
         }
+        }
+       
         .head_top_right{
             float: right;
+            display: inline-block;
+            margin-right: 60px;
+        }
+        a{
+            margin-left: 20px;
+            color: #9a9a9a;
+            &:hover{
+                color: #fe852c;
+            }
+        }
+    .head_center{
+        height: 105px;
+        overflow: hidden;
+        a{
+            float: left;
+            img{
+               height: 48px;
+               width: 240px;
+               margin-top: 20px;
+               margin-left: -18px;
+            }
+        }
+        form{
+            margin-left:315px ;
+            margin-top: 20px;
+            #circle{
+                border: 2px solid #fe852c;
+                width: 377px;
+                height: 34px;
+                float: left;
+                overflow: hidden;
+                color: #d7d1d0;
+                font-size: 12px;
+            }
+            #search{
+                width: 70px;
+                height: 38px;
+                background: #fe852c;
+                border:none;
+                margin-left: -5px;
+                font-size: 16px;
+                color: white;
+                margin-right: 30px;             
+            }
+            #btn1{
+                  text-align: center;  
+                  height: 32px;
+                  border:1px solid #efefef ;
+                  background: #f7f7f7;
+                  overflow: hidden;     
+                  margin-right: 20px;    
+                  color: #363636;     
+                  font-size:12px ;      
+            }
+             #btn2{
+                   background: #f7f7f7;
+                   height: 32px;
+                   border:1px solid #efefef ;
+                   color: #363636;
+                   font-size:12px ;  
+            }        
         }
     }
-       
+    .hot_search{
+        font-size: 12px;
+        position: relative;
+        top: -34px;
+        left: 315px;
+        color: #808080;
+    }
+    .under{
+        ul{
+            border-bottom: 2px solid #fe852c;
+            height: 36px;
+            color: white;
+            font-size: 15px;
+             float: left;
+//           overflow: hidden;
+            li{
+                   height: 36px;    
+                   float: left;           
+            }
+            li:nth-child(1){
+                background: #fe852c;
+            }
+        }
+    }
 }
